@@ -24,6 +24,7 @@ const Title = styled.p`
   font-family: "Metropolis", sans-serif;
   font-size: 1.25rem;
   color: #f1f1f1;
+  text-align: center;
 `;
 
 export default { Container, Img, Title };

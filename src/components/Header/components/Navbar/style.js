@@ -34,11 +34,14 @@ const UserInfos = styled.div`
 `;
 
 const UserPicture = styled.div`
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   background-color: #b8dff2;
   border-radius: 50%;
   padding: 5px;
+  overflow: hidden;
   & img {
     width: 100%;
     height: 100%;

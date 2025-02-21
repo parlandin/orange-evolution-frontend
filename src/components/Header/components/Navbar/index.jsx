@@ -44,3 +44,4 @@ const Navbar = ({ admin }) => {
 };
 
 export default Navbar;
+

@@ -28,6 +28,7 @@ const Navbar = styled.div`
   position: fixed;
   top: 0;
   height: 100vh;
+  border-right: 1px solid #625757;
 
   @media (max-width: 800px) {
     max-width: 0;

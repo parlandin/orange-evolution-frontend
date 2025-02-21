@@ -16,6 +16,7 @@ const ContentsCourse = styled.section`
   display: flex;
   flex-direction: column;
   margin-bottom: 51px;
+  padding: 0 10px;
 
   @media (max-width: 1000px) {
     align-items: center;

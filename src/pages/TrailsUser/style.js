@@ -11,6 +11,7 @@ const TrailsSection = styled.section`
   flex-direction: column;
   width: 100%;
   /* background-color: red; */
+  padding: 0 15px;
 
   @media (max-width: 800px) {
     align-items: center;

@@ -21,6 +21,10 @@ const TrailItem = (props) => {
     saveAs(blob, "certificado.pdf");
   };
 
+  const formatPercent = (percent) => {
+    return percent.toFixed(2).replace(".", ",");
+  };
+
   return (
     <S.Container>
       <BadgeIcon
@@ -31,7 +35,7 @@ const TrailItem = (props) => {
       <S.Content>
         <S.StatusView>
           <S.TitleStatus>Status</S.TitleStatus>
-          <S.Percent>{props.trail.percent}% concluído</S.Percent>
+          <S.Percent>{formatPercent(props.trail.percent)}% concluído</S.Percent>
         </S.StatusView>
         {props.trail.percent == 100 ? (
           <S.Button onClick={getCertificate}>Baixar Certificado</S.Button>
